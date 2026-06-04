@@ -1,48 +1,52 @@
-# 🚀 Python Analytics Portfolio (Beginner → Advanced)
+<div align="center">
+  
+  #  Python Analytics 
+</div>
 
-Hi — I’m **Maitreyee**, and this repository showcases my journey building **Python analytics** and **data dashboards**. From first exploratory plots to production-style dashboard engineering + ML prediction, each project highlights real, recruiter-relevant skills.
+<div align="center">
 
----
+### EDA → Business Analytics → Interactive Dashboards & ML
 
-## 🧾 Portfolio Snapshot
-
-| Level | Project | Focus | What You Can Review |
-|---|---|---|---|
-| 🟢 Beginner | Netflix Analytics Dashboard | EDA + storytelling with visuals | Data cleaning, trend plots, audience insights |
-| 🟡 Intermediate | Customer Churn Analytics | Business metrics + feature relationships | Churn drivers, correlations, segmentation |
-| 🔵 Advanced | Aviation Intelligence Dashboard | Analytics + interactive dashboard + ML | KPIs, interactive charts, geospatial map, delay prediction |
+⭐ from foundational EDA and data storytelling to production-style dashboards, geospatial analytics, and predictive modeling.
+</div>
 
 ---
-## 📸 Portfolio Showcase
 
-| 🟢 Beginner — Netflix Analytics | 🟡 Intermediate — Customer Churn Analytics | 🔵 Advanced — Aviation Intelligence Dashboard |
+## Portfolio Overview
+
+| Level | Project | Key Focus | Skills Demonstrated |
+|:---:|---|---|---|
+|  🟢**Beginner**  | **Netflix Analytics Dashboard** | EDA & Visualization | Data Cleaning, EDA, Trend Analysis, Storytelling |
+| 🟡**Intermediate** | **Customer Churn Analytics** | Customer Behavior & Business Insights | Segmentation, Correlation Analysis, Business Analytics |
+|  🔵**Advanced**  | **Aviation Intelligence Dashboard** | Interactive Analytics Platform + ML | Streamlit, KPI Design, Geospatial Analytics, ML |
+
+---
+## Core Competencies
+
+| Analytics | Visualization | Dashboard Development | Machine Learning |
+|------------|------------|------------|------------|
+| Data Cleaning | Matplotlib | Streamlit | Predictive Modeling |
+| Feature Engineering | Seaborn | Interactive Analytics | Feature Importance |
+| KPI Development | Plotly | Business Reporting | Model Deployment |
+| Exploratory Analysis | Data Storytelling | Dashboard UX | Model Evaluation |
+---
+
+## Portfolio Showcase
+
+| 🟢 Beginner | 🟡 Intermediate  | 🔵 Advanced  |
 |---|---|---|
-| <img src="python-basic/Netflix-Analytics/plots/movies_vs_tvshows.png" width="250"> | <img src="python-intermediate/Customer-Churn-Analytics/plots/churn_distribution.png" width="250"> | <img src="python-advanced/Aviation-Intelligence-Dashboard/plots/top_airlines_delays.png" width="250"> |
-| Movies vs TV Shows Distribution | Customer Churn Breakdown | Airlines with Highest Delays |
-| <img src="python-basic/Netflix-Analytics/plots/top_countries.png" width="250"> | <img src="python-intermediate/Customer-Churn-Analytics/plots/contract_vs_churn.png" width="250"> | <img src="python-advanced/Aviation-Intelligence-Dashboard/plots/weather_delays.png" width="250"> |
-| Top Content-Producing Countries | Contract Type Impact on Churn | Weather-Related Flight Delays |
-| <img src="python-basic/Netflix-Analytics/plots/content_over_years.png" width="250"> | <img src="python-intermediate/Customer-Churn-Analytics/plots/tenure_analysis.png" width="250"> | <img src="python-advanced/Aviation-Intelligence-Dashboard/plots/busiest_airports.png" width="250"> |
-| Netflix Content Growth Over Time | Customer Loyalty & Retention | Busiest Airports Analysis |
-| <img src="python-basic/Netflix-Analytics/plots/ratings_distribution.png" width="250"> | <img src="python-intermediate/Customer-Churn-Analytics/plots/correlation_heatmap.png" width="250"> | <img src="python-advanced/Aviation-Intelligence-Dashboard/plots/correlation_heatmap.png" width="250"> |
-| Audience Rating Distribution | Feature Correlation Analysis | Aviation Metrics Correlation |
-
-
-
-
-
-## 📈 Project Progression (How My Skills Grew)
-
-| Stage | Skill Growth | Evidence in this Repo |
-|---|---|---|
-| 1️⃣ Learn & Explore | Loading data, cleaning, descriptive insights | Netflix Analytics Dashboard |
-| 2️⃣ Business Analytics | Finding churn patterns + explaining relationships | Customer Churn Analytics |
-| 3️⃣ Dashboard Engineering | Building structured analytics experiences | Aviation Intelligence Dashboard |
-| 4️⃣ Applied ML | Predictive modeling + safe inference UX | Aviation delay prediction panel |
-
+| <img src="python-basic/Netflix-Analytics/plots/movies_vs_tvshows.png" width="250"> | <img src="python-intermediate/Customer-Churn-Analytics/plots/churn_distribution.png" width="250"> | <img src="python-advanced/Aviation-Intelligence-Dashboard/screenshots/dashboard_home.PNG" width="350"> |
+| Movies vs TV Shows Distribution | Customer Churn Breakdown | Interactive KPI Dashboard & Filters |
+| <img src="python-basic/Netflix-Analytics/plots/top_countries.png" width="250"> | <img src="python-intermediate/Customer-Churn-Analytics/plots/contract_vs_churn.png" width="250"> | <img src="python-advanced/Aviation-Intelligence-Dashboard/screenshots/airline_analytics.PNG" width="350"> |
+| Top Content-Producing Countries | Contract Type Impact on Churn | Airline Delay & Cancellation Analytics |
+| <img src="python-basic/Netflix-Analytics/plots/content_over_years.png" width="250"> | <img src="python-intermediate/Customer-Churn-Analytics/plots/tenure_analysis.png" width="250"> | <img src="python-advanced/Aviation-Intelligence-Dashboard/screenshots/airport_analytics.PNG" width="350"> |
+| Netflix Content Growth Over Time | Customer Loyalty & Retention Analysis | Airport Traffic & Delay Intelligence |
+| <img src="python-basic/Netflix-Analytics/plots/ratings_distribution.png" width="250"> | <img src="python-intermediate/Customer-Churn-Analytics/plots/correlation_heatmap.png" width="250"> | <img src="python-advanced/Aviation-Intelligence-Dashboard/screenshots/ml_delay.PNG" width="350"> |
+| Audience Rating Distribution | Feature Correlation Analysis | ML-Powered Flight Delay Prediction |
 
 ---
 
-## 🧰 Skills Demonstrated
+## Skills Demonstrated
 
 | Category | Skills |
 |---|---|
@@ -54,7 +58,7 @@ Hi — I’m **Maitreyee**, and this repository showcases my journey building **
 
 ---
 
-## 🛠️ Tools & Technologies Used
+## Tools & Technologies Used
 
 - **Python** 🐍
 - **Pandas**
@@ -68,99 +72,60 @@ Hi — I’m **Maitreyee**, and this repository showcases my journey building **
 
 ---
 
-## 📂 Portfolio Projects
+##  Portfolio Projects
 
-### 🟢 Beginner — Netflix Analytics Dashboard (Basic)
+### 🟢 Beginner — Netflix Analytics Dashboard
 
-**Goal:** Turn a Netflix titles dataset into a quick, readable set of insights.
+**EDA project exploring Netflix content trends through visual analytics.** 
 
-**What I built:**
-- Movies vs TV Shows distribution
-- Top countries by title volume
-- Ratings distribution
-- Content added over time
-- Movie duration distribution
+**Highlights:**
+- Movies vs TV Shows
+- Ratings Analysis
+- Content Growth
+- Country Insights
 
-**Outputs:**
-- Plot images in `python-basic/Netflix-Analytics/plots/`
-
-**Why recruiters like it:**
+**learnings**
 - Strong fundamentals: cleaning, transformation, and clear EDA storytelling.
-- Shows the ability to communicate insights with visuals.
+- communicate insights with visuals.
 
 ---
 
-### 🟡 Intermediate — Customer Churn Analytics (Intermediate)
+### 🟡 Intermediate — Customer Churn Analytics 
 
-**Goal:** Identify churn drivers and explain churn behavior using customer attributes.
+**Business-focused analytics project identifying customer churn patterns.** 
 
-**What I built:**
-- Churn distribution overview
-- Gender vs churn
-- Contract type vs churn
-- Internet service vs churn
-- Monthly charges & churn relationship
-- Tenure analysis (loyalty vs churn)
-- Correlation heatmap of numeric variables
-- Senior citizen vs churn
+**Highlights:**
+- Churn Drivers 
+- Contract Analysis
+- Customer Retention 
+- Correlation Insights
 
-**Outputs:**
-- Plot images in `python-intermediate/Customer-Churn-Analytics/plots/`
-
-**Why recruiters like it:**
+**learnings:**
 - Business analytics thinking (customer churn is inherently actionable).
 - Clear use of segmentation + correlations to support interpretation.
 
 ---
 
-### 🔵 Advanced — Aviation Intelligence Dashboard (Advanced)
+### 🔵 Advanced — Aviation Intelligence Dashboard 
 
-**Goal:** Build a modern Streamlit dashboard for aviation analytics, including an embedded ML prediction system.
+**Production-style Streamlit dashboard combining analytics, visualization, and machine learning.** 
 
 **Core capabilities:**
-- ✅ Interactive KPIs (flights, delays, cancellations, cancellation rate)
-- 🏆 Airline intelligence (leaderboards + trends)
-- 🛬 Airport intelligence (busiest vs most delayed)
-- 🌡️ Monthly × yearly heatmaps
-- 🌦️ Weather-related delay insights + correlation views
-- 🗺️ Folium-based interactive airport map
-- 🤖 Embedded ML prediction: **arrival delay (minutes)**
+- Interactive KPIs (flights, delays, cancellations, cancellation rate)
+- Airline intelligence 
+- Airport intelligence
+- Monthly × yearly heatmaps
+- Weather-related delay insights + correlation views
+- Folium-based interactive airport map
+- Embedded ML prediction: **arrival delay (minutes)**
 
-**ML details (high-level):**
+**ML details :**
 - Model: **RandomForestRegressor**
 - Training workflow: offline training + saved artifact loading
 - In-dashboard prediction: safe inference UX with input coercion
 
-**Recruiter-ready engineering:**
+**learnings:**
 - Analytics → visuals → dashboard UX → ML integration
-- Clear architecture and modular `src/` design
-
-> Project: `python-advanced/Aviation-Intelligence-Dashboard/`
-
----
-
-## 🧩 Analytics / Dashboard Focus (What You’ll Notice)
-
-- 📌 KPI-driven design: charts and tables map directly to metrics
-- 🔎 Explainable insights: correlations, leaderboards, and grouped views
-- 🧭 Recruiter-friendly structure: each project reads like a mini product
-- 🧠 Advanced dashboard adds: interactive charts + geospatial + ML prediction
-
----
-
-## 🔮 Future Roadmap
-
-- 📌 Add **more dashboard screenshots** (KPIs, maps, prediction panel) to strengthen visual impact
-- 🧪 Improve **reproducibility**: consistent run instructions + lightweight “how to review results” sections per project
-- 🤖 Expand advanced ML: additional models, evaluation metrics, and clearer interpretability
-- 🧱 Refine code modularity: unify patterns across projects (data loading, plotting utilities)
-
----
-
-## 📬 Connect With Me
-
-- **GitHub:** (this repo)
-- **Email:** maitreyeenrane@gmail.com
 
 ---
 
@@ -172,5 +137,12 @@ Hi — I’m **Maitreyee**, and this repository showcases my journey building **
 
 ---
 
-### ✅ Final Note
-This repository is intentionally built to read like a **professional analytics portfolio** — clean structure, clear progression, and dashboard/ML outcomes aligned to real recruiter expectations.
+## 📬 Contact
+
+**Maitreyee Rane**
+
+📧 maitreyeenrane@gmail.com
+
+⭐ Continuously learning, building, and improving.
+
+---
