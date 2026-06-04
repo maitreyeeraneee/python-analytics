@@ -1,0 +1,26 @@
+
+*.py[cod]
+*$py.class
+
+venv/
+
+# Streamlit
+.streamlit/
+
+# Data/outputs
+*.log
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+
+.ipynb_checkpoints/
+
+.venv/
+__pycache__/
+*.pyc
+*.pkl
+*.joblib
+.env
