@@ -13,15 +13,22 @@ Hi — I’m **Maitreyee**, and this repository showcases my journey building **
 | 🔵 Advanced | Aviation Intelligence Dashboard | Analytics + interactive dashboard + ML | KPIs, interactive charts, geospatial map, delay prediction |
 
 ---
+## 📸 Portfolio Showcase
 
-## 🧠 Why This Portfolio Stands Out
+| 🟢 Beginner — Netflix Analytics | 🟡 Intermediate — Customer Churn Analytics | 🔵 Advanced — Aviation Intelligence Dashboard |
+|---|---|---|
+| <img src="python-basic/Netflix-Analytics/plots/movies_vs_tvshows.png" width="250"> | <img src="python-intermediate/Customer-Churn-Analytics/plots/churn_distribution.png" width="250"> | <img src="python-advanced/Aviation-Intelligence-Dashboard/plots/top_airlines_delays.png" width="250"> |
+| Movies vs TV Shows Distribution | Customer Churn Breakdown | Airlines with Highest Delays |
+| <img src="python-basic/Netflix-Analytics/plots/top_countries.png" width="250"> | <img src="python-intermediate/Customer-Churn-Analytics/plots/contract_vs_churn.png" width="250"> | <img src="python-advanced/Aviation-Intelligence-Dashboard/plots/weather_delays.png" width="250"> |
+| Top Content-Producing Countries | Contract Type Impact on Churn | Weather-Related Flight Delays |
+| <img src="python-basic/Netflix-Analytics/plots/content_over_years.png" width="250"> | <img src="python-intermediate/Customer-Churn-Analytics/plots/tenure_analysis.png" width="250"> | <img src="python-advanced/Aviation-Intelligence-Dashboard/plots/busiest_airports.png" width="250"> |
+| Netflix Content Growth Over Time | Customer Loyalty & Retention | Busiest Airports Analysis |
+| <img src="python-basic/Netflix-Analytics/plots/ratings_distribution.png" width="250"> | <img src="python-intermediate/Customer-Churn-Analytics/plots/correlation_heatmap.png" width="250"> | <img src="python-advanced/Aviation-Intelligence-Dashboard/plots/correlation_heatmap.png" width="250"> |
+| Audience Rating Distribution | Feature Correlation Analysis | Aviation Metrics Correlation |
 
-- 📊 **Analytics-first** thinking — every project converts data into decisions
-- 🧩 **Dashboard mindset** — clean structure, organized outputs, recruiter-friendly explanations
-- 🧪 **Repeatable engineering patterns** — pipelines, consistent feature handling, modular code (advanced)
-- 🤖 **ML integration (Advanced)** — an embedded prediction system inside the dashboard
 
----
+
+
 
 ## 📈 Project Progression (How My Skills Grew)
 
@@ -31,6 +38,7 @@ Hi — I’m **Maitreyee**, and this repository showcases my journey building **
 | 2️⃣ Business Analytics | Finding churn patterns + explaining relationships | Customer Churn Analytics |
 | 3️⃣ Dashboard Engineering | Building structured analytics experiences | Aviation Intelligence Dashboard |
 | 4️⃣ Applied ML | Predictive modeling + safe inference UX | Aviation delay prediction panel |
+
 
 ---
 
