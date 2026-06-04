@@ -1,17 +1,10 @@
-# ✈️ Aviation Intelligence Dashboard — Advanced Analytics & Delay Prediction
-
-[![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
-[![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?style=flat&logo=streamlit&logoColor=white)](https://streamlit.io/)
-[![Plotly](https://img.shields.io/badge/Plotly-Interactive-239B56?style=flat&logo=plotly&logoColor=white)](https://plotly.com/)
-[![Folium](https://img.shields.io/badge/Folium-Maps-2E86C1?style=flat&logo=leaflet&logoColor=white)](https://python-visualization.github.io/folium/)
-[![scikit-learn](https://img.shields.io/badge/scikit-learn-ML-1F77B4?style=flat&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
-[![Joblib](https://img.shields.io/badge/joblib-Model%20Artifacts-333333?style=flat&logo=python&logoColor=white)](https://joblib.readthedocs.io/)
+# ✈️ Aviation Intelligence Dashboard 
 
 > **Recruiter-ready portfolio project**: production-style Python analytics + an embedded ML prediction system for operational delay intelligence.
 
----
 
-## 🧠 Project Overview
+
+## Project Overview
 The **Aviation Intelligence Dashboard** is a modern Streamlit application that helps aviation operators, analysts, and decision-makers answer high-impact questions:
 - **Which airlines and airports drive the most delays/cancellations?**
 - **How have delay and cancellation patterns changed over time?**
@@ -25,16 +18,51 @@ It combines:
 
 ---
 
-## 🚀 Key Features
-- 📊 **Operational KPIs** — flights, delays, cancellations, cancellation rate
-- 🏆 **Airline intelligence** — delays leaderboard, cancellations leaderboard, market share
-- 🛬 **Airport intelligence** — busiest vs. most delayed airports
-- 📈 **Time intelligence** — yearly delay trends (sum/avg aggregation)
-- 🌡️ **Heatmaps** — monthly × yearly delay/cancellation patterns
-- 🌦️ **Weather delay insights** — weather delay trend + correlation analysis
-- 🗺️ **Interactive airport map** — dataset-driven markers when `lat/lon` are available
-- 🤖 **AI Flight Delay Prediction System** — live prediction using saved model artifacts
-- 🔎 **Model interpretability** — feature importance visualization inside the dashboard
+## Dashboard Showcase
+
+| Dashboard Overview | Airline Analytics |
+|---|---|
+| <img src="screenshots/dashboard_home.PNG" width="450"> | <img src="screenshots/airline_analytics.PNG" width="450"> |
+| Interactive KPI dashboard with filters and operational metrics. | Airline delays, cancellations, and market share analysis. |
+
+| Airport Analytics | Delay Trends & Heatmaps |
+|---|---|
+| <img src="screenshots/airport_analytics.PNG" width="450"> | <img src="screenshots/delay_trends_heatmaps.PNG" width="450"> |
+| Airport traffic and delay intelligence. | Yearly trends and seasonal delay patterns. |
+
+| Airport Intelligence Map | Flight Delay Prediction |
+|---|---|
+| <img src="screenshots/airport_map.PNG" width="450"> | <img src="screenshots/ml_delay.PNG" width="450"> |
+| Interactive geospatial airport visualization. | Machine learning-powered arrival delay prediction. |
+
+| Feature Importance Analysis | Additional Analytics |
+|---|---|
+| <img src="screenshots/featureimportance.PNG" width="450"> | <img src="screenshots/visuals.PNG" width="450"> |
+| Key factors influencing model predictions. | Weather impacts, cancellations, and supporting insights. |
+
+---
+
+## 🌟Project Highlights
+
+- End-to-End Analytics Engineering
+- Interactive Dashboard Development
+- Geospatial Visualization
+- Machine Learning Integration
+- Production-Oriented Project Structure
+
+---
+
+## Key Features
+
+- 📊 Interactive KPI Dashboard
+- 🏆 Airline Performance Analytics
+- 🛬 Airport Intelligence
+- 📈 Delay & Cancellation Trends
+- 🌡️ Monthly × Yearly Heatmaps
+- 🌦️ Weather Impact Analysis
+- 🗺️ Interactive Airport Mapping
+- 🤖 Arrival Delay Prediction System
+- 🔍 Feature Importance Visualization
 
 ---
 
@@ -62,32 +90,14 @@ It combines:
 
 ---
 
-## 🧠🤖 AI/ML Prediction System (Flight Delay)
-The dashboard includes an embedded ML prediction engine that estimates **arrival delay (minutes)** from operational scenario inputs.
+## 🤖 Machine Learning
 
-### Model Type
-- **Algorithm**: `RandomForestRegressor`
-- **Artifact**: `models/delay_prediction_model.pkl`
-
-### Model Features (Training & Inference)
-The model is trained using the following numeric inputs (feature order is enforced at inference time):
-- `arr_flights`
-- `carrier_ct`
-- `weather_ct`
-- `nas_ct`
-- `security_ct`
-- `late_aircraft_ct`
-
----
-
-## 🖼️ Dashboard Screenshots
-Add screenshots for the following UI sections to make your GitHub portfolio stand out:
-- KPIs + filters
-- Airline leaderboards
-- Airport map
-- Delay trend + heatmaps
-- Weather insights
-- ML prediction panel
+| Component | Details |
+|------------|------------|
+| Model | Random Forest Regressor |
+| Input Features | Flight Volume, Carrier, Weather, NAS, Security & Late Aircraft Delays |
+| Output | Predicted Arrival Delay (Minutes) |
+| Deployment | Embedded Directly Inside Streamlit Dashboard |
 
 ---
 
@@ -109,37 +119,9 @@ The dashboard renders an interactive **Folium** map embedded in Streamlit.
 
 ---
 
-## 🧰 Tech Stack
-- **Python**
-- **Streamlit** — dashboard UI
-- **Plotly** — interactive charts
-- **Folium + streamlit-folium** — map visualization
-- **Pandas** — analytics + transformation
-- **Seaborn** — supporting analysis scripts
-- **scikit-learn** — model training (Random Forest)
-- **joblib** — model artifact persistence
+##  Tech Stack
 
----
-
-## 🏗️ Project Architecture
-- `app.py`
-  - Streamlit app orchestration
-  - Data loading, sidebar filters, KPI + chart rendering
-  - Embedded prediction UI
-- `src/data.py`
-  - `load_data()` for `dataset/flights.csv` (cached)
-  - `apply_filters()` for year/airline/airport/month filtering
-- `src/analytics.py`
-  - KPI computation + aggregation logic
-  - leaderboards, trends, cancellation analysis, weather analysis
-- `src/charts.py`
-  - Plotly figure generation
-  - Folium map generation (`make_airport_map`)
-- `src/prediction.py`
-  - cached model loader
-  - prediction wrapper and optional feature importance plotting
-- `prediction_model.py`
-  - offline training + artifact export
+**Python • Pandas • Plotly • Streamlit • Folium • Scikit-Learn • Joblib • Seaborn**
 
 ---
 
@@ -170,89 +152,18 @@ Aviation-Intelligence-Dashboard/
 
 ---
 
-## ✅ Installation Steps
-From inside `python-advanced/Aviation-Intelligence-Dashboard`:
+## Business Insights
 
-```bash
-pip install -r requirements.txt
-```
-
----
-
-## ▶️ How to Run the Dashboard
-```bash
-streamlit run app.py
-```
-
-The dashboard expects:
-- `dataset/flights.csv`
-- `models/delay_prediction_model.pkl` (for prediction panel)
+- Identify high-delay airlines and airports
+- Monitor operational performance trends
+- Analyze weather-related impacts
+- Detect seasonal delay patterns
+- Simulate operational scenarios using ML predictions
 
 ---
 
-## 🏋️ Model Training Explanation
-Training is implemented in `prediction_model.py`.
+### Thank You for Visiting!!
 
-### Key points
-- Target variable: `arr_delay`
-- Features: numeric delay driver counts (`arr_flights`, `carrier_ct`, `weather_ct`, `nas_ct`, `security_ct`, `late_aircraft_ct`)
-- Model: `RandomForestRegressor`
-- Persistence: `joblib.dump(model, "models/delay_prediction_model.pkl")`
+This project showcases the integration of analytics, dashboard engineering, and ML to solve real-world aviation operational challenges.
 
-This separation (offline training vs. online inference) mirrors production engineering patterns:
-- stable artifact loading
-- deterministic feature ordering
-- consistent inference input coercion
-
----
-
-## 💼 Business Insights (What Stakeholders Can Learn)
-The dashboard is designed to support **operational decision-making**:
-- 📌 Identify **airlines** that consistently accumulate delays and cancellations
-- 📌 Pinpoint **airports** where operational interventions may be most impactful
-- 📌 Detect **seasonality** via monthly × yearly heatmaps
-- 📌 Quantify **weather-related delay influence** and validate it through correlation views
-- 📌 Use prediction inputs to simulate scenarios and prioritize operational readiness
-
----
-
-## 🔮 Future Improvements (Roadmap)
-Aligned with `TODO.md`:
-- 🧩 Refactor `app.py` into cleaner render functions + layout consistency
-- 🛡️ Harden `src/data.py`, `src/analytics.py`, and `src/charts.py` for robustness
-- 🗺️ Improve Folium map robustness and UX messaging when markers can’t render
-- 🤖 Improve prediction system validation, loading UX, and model interface checks
-- 🧪 Add smoke tests and improve documentation coverage (docstrings + architecture notes)
-
----
-
-## 🚀 Deployment
-### Option A: Streamlit Community Cloud
-1. Push the repository to GitHub
-2. Connect the repo to Streamlit Cloud
-3. Ensure required files are present:
-   - `dataset/flights.csv`
-   - `models/delay_prediction_model.pkl`
-4. Set entrypoint to `app.py`
-
-### Option B: Containerized / Enterprise deployment (recommended)
-- Build a container with the same Python dependencies from `requirements.txt`
-- Mount or bake-in `dataset/` and `models/`
-- Deploy behind a standard reverse proxy (Nginx/Traefik) for secure access
-
----
-
-## 🌟 Recruiter-Focused Presentation
-If you’re evaluating this project as a software/ML candidate, this repository demonstrates:
-- ✅ **End-to-end analytics engineering** (data → features → insights → visuals)
-- ✅ **Production-minded dashboard design** (filters, KPIs, defensive charting, consistent UX)
-- ✅ **ML integration into a real user workflow** (saved artifact loading + predictable inference)
-- ✅ **Interpretability** (feature importance visualization when available)
-- ✅ **Enterprise tone documentation** (architecture + deployment readiness)
-
----
-
-## 📌 Notes
-- Screenshots are intentionally left as a section to populate with your exported UI images.
-- The prediction panel uses the saved model artifact in `models/` and expects the dashboard feature order used by the training pipeline.
-
+⭐ continuously learning, building, and improving.
